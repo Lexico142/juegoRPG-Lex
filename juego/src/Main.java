@@ -248,27 +248,27 @@ public class Main {
 
         switch (mob) {
             case "goblin":
-                enemigoVida = 40 + (numerosCombates * 5);
+                enemigoVida = 20 + (numerosCombates * 5);
                 enemigoDanoBase = 8;
                 enemigoOro = 15;
                 break;
             case "slime":
-                enemigoVida = 20 + (numerosCombates * 5);
+                enemigoVida = 10 + (numerosCombates * 5);
                 enemigoDanoBase = 3;
                 enemigoOro = 5;
                 break;
             case "esqueleto":
-                enemigoVida = 60 + (numerosCombates * 5);
+                enemigoVida = 40 + (numerosCombates * 5);
                 enemigoDanoBase = 12;
                 enemigoOro = 25;
                 break;
             case "zombie":
-                enemigoVida = 90 + (numerosCombates * 5);
+                enemigoVida = 70 + (numerosCombates * 5);
                 enemigoDanoBase = 6;
                 enemigoOro = 20;
                 break;
             case "guardian":
-                enemigoVida = 150 + (numerosCombates * 5);
+                enemigoVida = 120 + (numerosCombates * 5);
                 enemigoDanoBase = 20;
                 enemigoOro = 100;
                 break;
@@ -365,7 +365,7 @@ public class Main {
                 System.out.println("\n--- Turno del enemigo ---");
                 Thread.sleep(1000);
 
-                int danoEnemigo = (int) (Math.random() * (20 - 10 + 1)) + 10;
+                int danoEnemigo = (int) (Math.random() * (20 - enemigoDanoBase + 1)) + enemigoDanoBase;
                 String interaccionEnemigo = interaccion.get((int) (Math.random() * interaccion.size()));
 
                 switch (interaccionEnemigo) {
@@ -500,7 +500,7 @@ public class Main {
 
     public static void taberna() throws InterruptedException {
         System.out.println("\n========================================");
-        System.out.println("Tras una larga batalla, el héroe ve");
+        System.out.println("Tras una larga batalla, ves");
         System.out.println("a lo lejos una taberna...");
         System.out.println("========================================");
         Thread.sleep(1500);
