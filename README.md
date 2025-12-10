@@ -9,9 +9,10 @@ Combate y Progresión: Enfréntate a enemigos que se vuelven más fuertes tras c
 ## Objetos y Lugares
 Durante tu aventura encontrarás recursos vitales para tu supervivencia:
 
-La Taberna: Un lugar seguro que aparece aleatoriamente entre combates. Aquí puedes gastar tu oro para comprar suministros.
+### La Taberna 
+Un lugar seguro que aparece aleatoriamente entre combates. Aquí puedes gastar tu oro para comprar suministros.
 
-## Objetos Disponibles:
+### Objetos Disponibles:
 
 Pociones: Restauran Vida o Energía (Stamina).
 
