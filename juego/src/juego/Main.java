@@ -1,3 +1,5 @@
+package juego;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
